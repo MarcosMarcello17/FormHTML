@@ -1,0 +1,47 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-div {
+  width: 33%;
+  height: 80%;
+  margin: 0;
+}
+
+.right-div {
+  margin: 5% 12% 0 3%;
+}
+
+.right-div p {
+  color: black;
+}
+
+.info-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input:focus {
+  border-width: 3px;
+  border-color: rgb(173, 179, 230);
+  box-shadow: 3px;
+}
+
+.left-img {
+  width: 100%;
+  max-height: 100%;
+}
+
+label,
+input {
+  display: block !important ;
+}
+
+input[name="createButton"] {
+  background-color: #596d48;
+}
