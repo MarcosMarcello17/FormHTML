@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Document</title>
+    <title>Sign Up Form</title>
   </head>
   <body>
     <div class="left-div">
@@ -13,27 +13,52 @@
         src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
       />
     </div>
+    <div class="left-div-sup">
+      <img
+        class="left-img-sup"
+        src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+      />
+      <p class="left-div-text">ODIN</p>
+    </div>
+    <div class="copyright-left">
+      <p>Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></p>
+    </div>
     <div class="right-div">
       <div class="info-text">
-        <p>
+        <p class="p1">
           This is not a real online service! You know you need something like
           this in your life to help you realize your deepest dreams.
         </p>
-        <p>Sign up now to get started.</p>
-        <p>You know you want to.</p>
+        <p class="p2">
+          Sign up <span class="cursiva">now</span> to get started.
+        </p>
+        <p>You <span class="cursiva">know</span> you want to.</p>
       </div>
       <div class="sign-up-form">
         <p>Let's do this!</p>
         <form>
-          <label>First name <input type="text" required /></label>
-          <label>Last name <input type="text" required /></label>
-          <label>Email <input type="email" required /></label>
-          <label>Phone number <input type="number" required /></label>
-          <label>Password <input type="password" required /></label>
-          <label>Confirm Password <input type="password" required /></label>
+          <table style="width: 100%">
+            <tr>
+              <td style="width: 30%">
+                <label>FIRST NAME <input type="text" required /></label>
+                <label>EMAIL <input type="email" required /></label>
+                <label>PASSWORD <input type="password" required /></label>
+              </td>
+              <td>
+                <label>LAST NAME <input type="text" required /></label>
+                <label>PHONE NUMBER <input type="number" required /></label>
+                <label
+                  >CONFIRM PASSWORD <input type="password" required
+                /></label>
+              </td>
+            </tr>
+          </table>
           <input name="createButton" type="submit" value="Create Account" />
         </form>
-        <p>Already have an account? <a href="" target="_blank">Log in</a></p>
+        <p class="already-signed">
+          Already have an account?
+          <a class="log-in" href="" target="_blank">Log in</a>
+        </p>
       </div>
     </div>
   </body>
